@@ -1,0 +1,73 @@
+.bg--light-blue {
+	background-color: rgb(125,216,232);
+}
+
+.bg--dark-blue, .btn__search--bg {
+	background-color: rgb(39,79,86);
+}
+
+.bg--bright-blue {
+	background-color: rgb(47,193,217);
+}
+
+.search__input--bg {
+	background-color: rgb(203,239,246);
+}
+
+.menu--bg, .bg--gray {
+	background-color: rgb(245,245,245);
+}
+
+.font--red {
+	color: red;
+}
+
+.font--blue {
+	color: rgb(47,193,217);
+}
+
+.font--green {
+	color: rgb(112,150,32);
+}
+
+.sidebar--two-lines img {
+	position: absolute;
+	right: 11px;
+	top: 14px;
+}
+
+.sidebar--one-line img {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+.text--underline 
+{
+	text-decoration: underline;
+}
+
+.link--black {
+	color: black;
+}
+
+.link--black:hover {
+	color: rgb(47,193,217);
+}
+
+.link--blue {
+	color: rgb(39,79,86);
+}
+
+.link--disabled {
+	pointer-events: none;
+	cursor: default;
+}
+
+.line--spacing {
+	line-height: 150%;
+} 
+
+.pull--right {
+	float: right;
+}

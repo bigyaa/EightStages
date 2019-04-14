@@ -1,0 +1,267 @@
+/*FONTS*/
+@font-face {
+	font-family: 'istok_webbold';
+	src: url('../fonts/istokweb-bold-webfont.woff2') format('woff2'),
+	url('fonts/istokweb-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'istok_webregular';
+	src: url('../fonts/istokweb-regular-webfont.woff2') format('woff2'),
+	url('fonts/istokweb-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'muli_blackregular';
+	src: url('../fonts/muli-black-webfont.woff2') format('woff2'),
+	url('fonts/muli-black-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'mulibold';
+	src: url('../fonts/muli-bold-webfont.woff2') format('woff2'),
+	url('fonts/muli-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'muli_lightregular';
+	src: url('../fonts/muli-light-webfont.woff2') format('woff2'),
+	url('fonts/muli-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'muliregular';
+	src: url('../fonts/muli-regular-webfont.woff2') format('woff2'),
+	url('fonts/muli-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'muli_semiboldregular';
+	src: url('../fonts/muli-semibold-webfont.woff2') format('woff2'),
+	url('fonts/muli-semibold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'roboto_slabbold';
+	src: url('../fonts/robotoslab-bold-webfont.woff2') format('woff2'),
+	url('fonts/robotoslab-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'roboto_slabregular';
+	src: url('../fonts/robotoslab-regular-webfont.woff2') format('woff2'),
+	url('fonts/robotoslab-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*Actual pixels of the psd file but does not cover the whole screen*/
+header, .menu, footer, .main {
+	max-width: 1003px;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.header {
+	max-height: 85px;
+}
+
+.header__left,
+.logo,
+.search,
+.search__input,
+.menu__nav,
+.main__left,
+.main__right,
+.main__mid,
+.entries__image,
+.footer__left,
+.entries__content {
+	float: left;
+}
+
+.logo {
+	padding: 10px 0px 9px 20px;
+}
+
+.search {
+	max-width: 337px;
+	margin-bottom: 25px;
+	margin-top: 40px;
+	margin-left: 18px;
+	position: relative;
+}
+
+.search__input {
+	width: 276px;
+	padding: 5px 44px 5px 8px;
+	border-radius: 10px;
+	margin-right: 8px;
+}
+
+.btn__search {
+	border-radius: 10px;
+	padding: 7px 7px 7px 9px;
+	float: right;
+}
+
+.header__right {
+	float: right;
+	padding-top: 28px;
+	padding-right: 22px;
+}
+
+li {
+	display: inline-block;
+}
+
+.header__pages {
+	padding-top: 12px;
+}
+
+.searchbar__icon {
+	position: absolute;
+	right: 79px;
+	bottom: 6px;
+}
+
+.searchbar__icon img {
+	vertical-align: middle;
+}
+
+.menu {
+	max-height: 40px;
+	padding-left: 20px;
+	padding-right: 3px;
+}
+
+.menu__nav a {
+	padding: 15px 11px 13px 11px;
+	display: inline-block;
+}
+
+.menu__right, 
+.footer__right {
+	float: right;
+}
+
+.menu__right a {
+	padding: 15px 17px 13px 17px;
+	display: inline-block;
+}
+
+.menu__right li:last-child a {
+	padding-left: 27px;
+}
+
+.main {
+	padding: 30px 21px 85px 21px;
+}
+
+.main__left,
+.main__right {
+	width: 19.85%;
+	height: 588px;
+}
+
+.sidebar__title{
+	padding: 13px 10px 13px 13px;
+	display: inline-block;
+	width: 192px;
+	position: relative;
+}
+
+.sidebar__links {
+	padding-bottom: 22px;
+}
+
+.sidebar__link {
+	display: block;
+}
+
+.sidebar__link a {
+	padding: 10px 43px 8px 12px;
+	display: inline-block;
+	width: 100%;
+
+}
+
+.sidebar__link:first-child {
+	padding-top: 8px;
+}
+
+.sidebar__link:first-child:hover {
+	padding-top: 8px;
+}
+
+.main__mid {
+	width: 54.05%;
+	max-height: 563px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.mid__title {
+	padding: 13px 15px 13px 16px;
+	position: relative;
+}
+
+.mid__title img{
+	position: absolute;
+	right: 13px;
+	bottom: 18px;
+}
+.mid__row {
+	padding-bottom: 17px;
+	padding-top: 16px;
+	width: 100%;
+	display: inline-block;
+}
+
+.main__content {
+	padding-top: 16px;
+	overflow-y: auto;
+	max-height: 520px;
+}
+
+.entries__content {
+	margin-left: 11px;
+}
+
+.full__footer {
+	display: inline-block;
+}

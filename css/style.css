@@ -1,0 +1,231 @@
+* {
+	text-decoration: none;
+	box-shadow: none;
+	border-style: none;
+	font-family: muliregular;
+	vertical-align: middle;
+}
+
+.logo {
+	font: 50px roboto_slabregular;
+	color: rgb(39,79,86);
+}
+
+.search__input {
+	font: 10px istok_webregular;
+	background-color: rgb(203,239,246);
+}
+
+.icon__close {
+	border-right: 1px solid rgb(125, 216,232);
+	color: rgb(131,145,148);
+	padding: 0px 2px 3px 4px; 
+}
+
+.searchbar__icon a:hover {
+	background-color: white;
+}
+
+.icon__search img {
+	/*padding: 0px 7px 5px 4px;*/
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px; 
+}
+
+.btn__search {
+	border-radius: 10px;
+	font: 9px istok_webregular;
+	color: white;
+	background-color: rgb(39,79,86);
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.btn__search:hover {
+	background-color: #417179;
+}
+
+.full-header, header {
+	background-color: rgb(125,216,232);
+}
+
+.header__username {
+	color: black;
+	font: 15px muli_semiboldregular;
+}
+
+.searchbar__icon img:hover {
+	background-color: white;
+}
+
+.list--divider::after {
+	content: ' |';
+}
+
+.list--divider:last-child::after {
+	content: none;
+}
+
+.header__pages {
+	font: 11px istok_webregular;
+}
+
+.header__right .link--black:hover {
+	color: white;
+}
+
+.menu, .full-menu {
+	background-color: rgb(245,245,245);
+}
+
+.menu__nav {
+	font: 13px muli_semiboldregular;
+	color: black;
+}
+
+.menu__nav a:hover {
+	color: white;
+	background-color: gray;
+}
+
+.menu__right a {
+	font: 11px muli_semiboldregular;
+	color: gray;
+}
+
+/*Uncomment the following when topic box invite = 0*/
+/*.menu__right li:first-child {
+	background: url(../images/bin-no-event-icon.png) 0% 50% no-repeat;
+	}*/
+
+	/*When topic box invite != 0*/
+	.menu__right li:first-child{
+		background: url(../images/bin-event-icon.png) 0% 50% no-repeat;
+	}
+
+	.menu__right li:last-child {
+		background: url(../images/person-icon.png) 0% 50% no-repeat;
+	}
+
+	/*Uncomment the following if "Friend Request" link is enabled*/
+/*.menu__right li:last-child:hover {
+	background: url(../images/person-event-icon.png) 0% 50% no-repeat;
+}
+*/
+
+.menu__right li:first-child a {
+	color: black;
+}
+
+.recent-searches .sidebar__link a{
+	background: url(../images/down-arrow-no-event.png) 94% 50% no-repeat;
+}
+
+.recent-searches .sidebar__link a:hover{
+	background: white url(../images/down-arrow-event.png) 94% 50% no-repeat;
+}
+
+.saved-searches .sidebar__link a{
+	background: url(../images/move-icon-no-event.png) 94% 50% no-repeat;
+}
+
+.saved-searches .sidebar__link a:hover{
+	background: white url(../images/move-icon-event.png) 94% 50% no-repeat;
+}
+.sidebar__title {
+	font: 14px muli_semiboldregular;
+	color: white;
+	position: relative;
+	background-color: rgb(47,193,217);
+}
+
+.sidebar__link {
+	font: 11px istok_webregular;
+}
+
+.sidebar__link a:hover {
+	color: rgb(47,193,217);
+	background-color: white;
+}
+
+.mid__title {
+	color: white;
+	font: 18px muli_semiboldregular;
+	background-color: rgb(39,79,86);
+}
+
+.mid__title2 {
+	font-size: 14px;
+}
+
+.mid__row {
+	border-bottom: 1px solid gray;
+}
+
+.main__left, .main__right {
+	background-color: rgb(245,245,245);
+}
+.main__content a {
+	color: rgb(47,193,217);
+}
+.main__content a:hover {
+	color: black;
+}
+
+.entries__content {
+	font: 11px istok_webregular;
+	padding-bottom: 7px;
+}
+
+.entry__title {
+	font: 14px muli_semiboldregular;
+}
+
+.entry__title:hover {
+	text-decoration: underline;
+
+}
+
+.go__top {
+	padding-top: 14px;
+	font: 12px istok_webregular;
+}
+
+.go__top img {
+	padding-left: 14px;
+}
+.comment {
+	font: 10px istok_webbold ;
+	font-weight: bold;
+}
+
+/*For line spacing*/
+.comment, .entry__title, .entry__info, .topicbox {
+	padding-bottom: 7px;
+}
+
+footer {
+	font: 9px istok_webbold;
+	background-color: rgb(221,221,221);
+	padding: 20px 22px 19px 22px;
+}
+
+.footer__left li::after {
+	content: " \2022";
+}
+
+.footer__left li:last-child::after {
+	content: none;
+}
+
+.footer__right, .footer__left a {
+	color: rgb(151,151,151);
+}
+
+.footer__left a:hover {
+	color: black;
+}
+
+.full-footer {
+	background-color: rgb(221,221,221);
+}
