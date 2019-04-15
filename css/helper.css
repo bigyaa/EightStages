@@ -1,21 +1,23 @@
 .bg--light-blue {
-	background-color: rgb(125,216,232);
+	background-color: rgb(125, 216, 232);
 }
 
-.bg--dark-blue, .btn__search--bg {
-	background-color: rgb(39,79,86);
+.bg--dark-blue,
+.btn__search--bg {
+	background-color: rgb(39, 79, 86);
 }
 
 .bg--bright-blue {
-	background-color: rgb(47,193,217);
+	background-color: rgb(47, 193, 217);
 }
 
 .search__input--bg {
-	background-color: rgb(203,239,246);
+	background-color: rgb(203, 239, 246);
 }
 
-.menu--bg, .bg--gray {
-	background-color: rgb(245,245,245);
+.menu--bg,
+.bg--gray {
+	background-color: rgb(245, 245, 245);
 }
 
 .font--red {
@@ -23,11 +25,11 @@
 }
 
 .font--blue {
-	color: rgb(47,193,217);
+	color: rgb(47, 193, 217);
 }
 
 .font--green {
-	color: rgb(112,150,32);
+	color: rgb(112, 150, 32);
 }
 
 .sidebar--two-lines img {
@@ -42,8 +44,7 @@
 	bottom: 10px;
 }
 
-.text--underline 
-{
+.text--underline {
 	text-decoration: underline;
 }
 
@@ -52,11 +53,11 @@
 }
 
 .link--black:hover {
-	color: rgb(47,193,217);
+	color: rgb(47, 193, 217);
 }
 
 .link--blue {
-	color: rgb(39,79,86);
+	color: rgb(39, 79, 86);
 }
 
 .link--disabled {
@@ -66,7 +67,7 @@
 
 .line--spacing {
 	line-height: 150%;
-} 
+}
 
 .pull--right {
 	float: right;
