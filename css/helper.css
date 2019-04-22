@@ -22,14 +22,17 @@
 
 .font--red {
 	color: red;
+	font-weight: bold;
 }
 
 .font--blue {
 	color: rgb(47, 193, 217);
+	font-weight: bold;
 }
 
 .font--green {
 	color: rgb(112, 150, 32);
+	font-weight: bold;
 }
 
 .sidebar--two-lines img {

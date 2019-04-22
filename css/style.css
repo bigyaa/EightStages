@@ -211,6 +211,11 @@ header {
 	padding-bottom: 7px;
 }
 
+.go__top:hover {
+	color: rgb(47, 193, 217);
+	cursor: pointer;
+}
+
 footer {
 	font: 9px istok_webbold;
 	background-color: rgb(221, 221, 221);
