@@ -157,10 +157,21 @@ li {
 	position: absolute;
 	right: 79px;
 	bottom: 6px;
+	text-align: center;
+	width: 37px;
 }
 
 .searchbar__icon img {
 	vertical-align: middle;
+}
+
+.icon__close {
+	padding: 0px 4px 3px 4px;
+}
+
+.icon__search {
+	padding: 0 4px 3px 4px;
+	margin-left: -4px;
 }
 
 .menu {
